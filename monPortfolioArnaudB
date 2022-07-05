@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arnaud Briat À propos</title>
+        <link rel="shortcut icon" href="IMG/favicon.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="CSS/about-style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html" class="slide-line">Arnaud Briat</a>
+                <div class="home">
+                    <!-- <p>HOME</p> -->
+                    <i class='bx bx-home-alt-2' style='color:#f1f1f1'  ></i>
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="project.html" class="slide-line">Work,</a></li>
+                    <li><a href="#" class="slide-line"> About,</a></li>
+                    <li><a href="#contacter" class="slide-line"> Contact</a></li>
+                </ul>
+            </div>
+            <div class="container-corner">
+                <div class="circle-menu">
+                    <a href="project.html" class="links-circle">Work</a>
+                    <a href="#" class="links-circle">About</a>
+                    <a href="index.html#contacter" class="links-circle">Contact</a>
+                </div>
+                <div class="btn-circle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="invisible-div"></div>
+
+        <section class="section-about">
+            <div class="stick">
+                <span>/ About</span>
+            </div>
+            <div class="box-left">
+                <p class="text-bloc-left reveal">Je suis passionné par le développement créatif et les nouvelles technologies.
+
+                    Je peux, en tant que UI UX designer penser, concevoir et intégrer les maquettes de votre site web.
+                    
+                    Je suis à la recherche d’une entreprise souhaitant m’accompagner dans mon parcours de futur développeur web au CESI de Rouen (76).
+                    
+                    J’utilise principalement HTML CSS, mais aussi des librairies comme GSAP, Jquery, je me forme au PHP sur open classrooms et m'amuse sur codingame.</p>
+            </div>
+            <div class="box-right">
+                <div class="img-about-mob">
+                    <div class="img">
+                        <div class="trompe"></div>
+                    </div>
+                </div>
+                <div class="img-about">
+                    <div class="img"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="stick-two">
+                <span>/ Contact</span>
+            </div>
+            <div id="contacter">
+                <a href="mailto:hello@arnaudbriat.fr" class="slide-line-four reveal">hello@arnaudbriat.fr</a>
+            </div>
+            <div class="mention reveal">
+                <div class="invisible"></div>
+                <div>
+                    <a href="https://www.linkedin.com/in/arnaud-briat/" class="slide-line">Linkedin</a>
+                </div>
+                <div>
+                    <p class="copy">ARNAUD BRIAT 2022 &copy;</p>
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="JS/anim-index.js"></script>
+        <script src="JS/scroll-anim.js"></script>
+        <script src="JS/menu-mob.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnaud Briat Portfolio</title>
+    <link rel="shortcut icon" href="IMG/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/index-style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Arnaud Briat</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="project.html" class="slide-line">Work,</a></li>
+                <li><a href="about.html" class="slide-line"> About,</a></li>
+                <li><a href="#contacter" class="slide-line"> Contact</a></li>
+            </ul>
+        </div>
+        <div class="container-corner">
+            <div class="circle-menu">
+                <a href="project.html" class="links-circle">Work</a>
+                <a href="about.html" class="links-circle">About</a>
+                <a href="#contacter" class="links-circle">Contact</a>
+            </div>
+            <div class="btn-circle">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <header id="top">
+        <div class="header-left">
+            <div class="header-img">
+                <div class="img"></div>
+            </div>
+            <a href="#top" class="fucking-arrow">
+                <i class='bx bx-down-arrow-alt ' style='color:#F1F1F1'  ></i>
+                </a>
+            <div class="text-bottom">
+                <div class="invisible"></div>
+                <!-- <a href="#top">
+                <i class='bx bx-down-arrow-alt' style='color:#F1F1F1'  ></i>
+                </a> -->
+                <p>jeune designer web <br> alternant développeur <br> web full-stack</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <h1><span>UI UX</span><span>DESIGNER</span></h1>
+            <div class="name-mob"><span>ARNAUD</span><span>BRIAT</span></div>
+        </div>
+        <div class="name"><span>ARNAUD</span><span>BRIAT</span></div>
+    </header>
+    <main>
+        <section class="section-one">
+            <div class="bloc-text-upper">
+                <p class="reveal">fasciné par l'univers du web. les projets innovants et uniques sont une source d'inspiration pour moi.</p>
+                <p class="reveal">les problématiques rencontrées ne sont pas une simple motivation mais un challenge relevé avec plaisir.</p>
+            </div>
+            
+            <article>
+                <div class="article-left reveal">
+                    <p>S'adapter pour une interface utilisateur audacieuse.</p>
+                </div>
+                <div class="article-right reveal">
+                    <p>Afin de garder une créativité cohérente et moderne lors de mes projets, j'entretiens ma veille technologique et concurentielle grâce aux plateformes comme <a href="https://www.awwwards.com/" class="slide-line-two">Awwwards</a>, <a href="https://dribbble.com/" class="slide-line-two"> Dribbble</a>, <a href="https://www.behance.net/" class="slide-line-two">Behance</a>, ainsi que des influenceurs sur les réseaux sociaux. Ce qui me motive à en apprendre toujours plus.</p>
+                    <p>Pour moi comprendre et s'adapter aux besoins de mes collaborateurs est la clé d'une interface et d'une expérience utilisateur réussite.</p>
+                    <p>
+                        <a href="about.html" class="slide-line-two">Plus d'info sur moi <i class='bx bx-right-top-arrow-circle' style='color:#333333'  ></i></a>
+                        <a href="project.html" class="slide-line-two">ou mes projets <i class='bx bx-right-top-arrow-circle' style='color:#333333'  ></i></a>
+                    </p>
+                </div>
+            </article>
+        </section>
+        </main>
+        <section class="section-two">
+            <div class="message reveal">
+                <p>Vous avez un <span>PROJET</span> ou une <span>IDÉE</span> ? <br> N'hésitez à me laisser un <span>MESSAGE</span> !</p>
+                <a href="mailto:hello@arnaudbriat.fr" class="slide-line-three">hello@arnaudbriat.fr</a>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="stick">
+                <span>/ Services</span>
+            </div>
+            <div class="container reveal">
+                <div class="container-toggle ">
+                    <div class="visible-pannel activ container-left">
+                        <h2>UI UX design</h2>
+                        <i class='cross-left bx bx-x'></i>
+                    </div>
+                    <div class="toggle-pannel pannel-left">
+                        <ul class="toggle-left">
+                            <li>wireframe</li>
+                            <li>prototype interactif</li>
+                            <li>design responsive</li>
+                            <li>création d'icônes</li>
+                            <li>conception d'interface</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-toggle ">
+                    <div class="visible-pannel container-mid">
+                        <h2>graphisme</h2>
+                        <i class='cross-mid bx bx-x'></i>
+                    </div>
+                    <div class="toggle-pannel pannel-mid">
+                        <ul class="toggle-left">
+                            <li>identité visuelle</li>
+                            <li>carousels instagram</li>
+                            <li>charte graphique</li>
+                            <li>affiche print</li>
+                            <li>photomontage</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-toggle ">
+                    <div class="visible-pannel container-right">
+                        <h2>développement</h2>
+                        <i class='cross-right bx bx-x'></i>
+                    </div>
+                    <div class="toggle-pannel pannel-right">
+                        <ul class="toggle-left">
+                            <li>intégration</li>
+                            <li>refonte d'un site web</li>
+                            <li>responsive</li>
+                            <li>animation / intéraction</li>
+                            <!-- <li>wireframe</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="stick-two">
+                <span>/ Contact</span>
+            </div>
+            <div id="contacter">
+                <a href="mailto:hello@arnaudbriat.fr" class="slide-line-four reveal">hello@arnaudbriat.fr</a>
+            </div>
+            <div class="mention reveal">
+                <div class="invisible"></div>
+                <div>
+                    <a href="https://www.linkedin.com/in/arnaud-briat/" class="slide-line">Linkedin</a>
+                </div>
+                <div>
+                    <p class="copy">ARNAUD BRIAT 2022 &copy;</p>
+                </div>
+            </div>
+            
+        </footer>
+    
+
+
+
+
+
+
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="JS/anim-index.js"></script>
+    <script src="JS/toggle-services.js"></script>
+    <script src="JS/scroll-anim.js"></script>
+    <script src="JS/menu-mob.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnaud Briat Projets</title>
+    <link rel="shortcut icon" href="IMG/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="CSS/project-style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" class="slide-line">Arnaud Briat</a>
+            <div class="home">
+                <!-- <p>HOME</p> -->
+                <i class='bx bx-home-alt-2' style='color:#f1f1f1'  ></i>
+            </div>
+        </div>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="slide-line">Work,</a></li>
+                <li><a href="about.html" class="slide-line"> About,</a></li>
+                <li><a href="index.html#contacter" class="slide-line"> Contact</a></li>
+            </ul>
+        </div>
+        <div class="container-corner">
+            <div class="circle-menu">
+                <a href="#" class="links-circle">Work</a>
+                <a href="about.html" class="links-circle">About</a>
+                <a href="index.html#contacter" class="links-circle">Contact</a>
+            </div>
+            <div class="btn-circle">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="titre">PROJETS</div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-img">
+                        <p class="fraction-name">GRAPHISME</p>
+                    </div>
+                </div>
+                <div id="pilou" class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <!-- IMG 13  UI UX -->
+                <div class="swiper-slide">
+                    <div class="slide-img">
+                        <p class="fraction-name gra">UI UX Design</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                 <!-- IMG 17  WEB -->
+                <div class="swiper-slide">
+                    <div class="slide-img">
+                        <p class="fraction-name gra">Web</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-img"></div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer class="footer">
+                <div class="footer-wrapper">
+                    <div class="scroll">
+                        <p>drag or scroll</p>
+                    </div>
+                </div>
+            </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="JS/car.js" async></script>
+    <script src="JS/anim-project.js"></script>
+    <script src="JS/menu-mob.js"></script>
+</body>
+</html>
